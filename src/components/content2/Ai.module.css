@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  margin-top: 170px;
+  margin-left: 240px;
+}
+.text {
+  margin-top: 32px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 2.5vw;
+}
+.title {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 60px;
+}
+.custom {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  background: linear-gradient(45deg, #00f0ff 10%, #5773ff 20%, #ff007a 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.paragraph {
+  color: white;
+  font-size: 20px;
+  width: 56%;
+}
+.learn {
+  margin-top: 3vh;
+}
+.monitor {
+  width: 40vw;
+  height: auto;
+}
+.bar {
+  width: 4px;
+  margin-left: 15vw;
+}
+.content2 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1620px) {
+  .content {
+    margin-top: -1vw;
+    margin-left: 13.65vw;
+  }
+  .title {
+    font-size: 2.5vw;
+  }
+  .custom {
+    font-size: 4vw;
+  }
+  .paragraph {
+    font-size: 1.5vw;
+  }
+  .learn {
+    margin-top: -7vw;
+    width: 22vw;
+    height: 22vw;
+  }
+  .bar {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .text {
+    margin-left: 0;
+  }
+  .content {
+    margin: 0;
+    margin-top: -7vw;
+  }
+  .title {
+    margin: 0;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+  .custom {
+    text-align: center;
+    font-size: 6vw;
+  }
+  .paragraph {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5vw;
+  }
+  .learn {
+    display: block;
+    margin: auto;
+    margin-top: -6vw;
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .monitor {
+    display: none;
+  }
+}

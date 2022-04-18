@@ -1,0 +1,11 @@
+.first_div{
+    background: #070320 url(/src/Assets/firstBG.svg) top no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.second_div{
+    background: #1b173a;
+}

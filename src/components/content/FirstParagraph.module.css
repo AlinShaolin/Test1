@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin-top: 130px;
+  text-align: center;
+}
+.title {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+}
+.market {
+  font-family: "Poppins", sans-serif;
+  font-size: 98px;
+  background: linear-gradient(45deg, #00f0ff 30%, #5773ff 50%, #ff007a 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.paragraph {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0px 33% 0 33%;
+  font-size: 20px;
+  line-height: 150%;
+  vertical-align: top;
+  font-weight: 400;
+}
+.lego_button {
+  margin-left: 42%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.arrow_down {
+  display: block;
+  margin-top: 126px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 599px) {
+  .content {
+    margin-top: 6vw;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .market {
+    font-size: 12vw;
+  }
+  .paragraph {
+    font-size: 3vw;
+  }
+  .lego_button {
+    height: 39vw;
+    width: 39vw;
+    margin-top: -9vw;
+  }
+  .arrow_down {
+    margin-top: -7vw;
+    height: 12vw;
+    width: 12vw;
+  }
+}
+@media only screen and (max-width: 381px) {
+  .content {
+    margin-top: 28vw;
+  }
+}

@@ -1,0 +1,63 @@
+.article {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15vh;
+}
+
+.image {
+  width: 72vw;
+  height: auto;
+}
+
+.picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.6vw;
+  background: linear-gradient(45deg, #00f0ff 30%, #5773ff 50%, #ff007a 67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 5vw;
+  bottom: 0;
+  left: 6vw;
+  right: 0;
+}
+.paragraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  color: white;
+  position: absolute;
+  top: 17.4vw;
+  bottom: 0;
+  left: 6vw;
+  right: 0;
+}
+.lego {
+  width: 16vw;
+  height: auto;
+  position: absolute;
+  top: 24.2vw;
+  bottom: 0;
+  left: 6vw;
+  right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    font-size: 3.6vw;
+    top: 2vw;
+  }
+  .paragraph {
+    font-size: 1.4vw;
+    top: 14.4vw;
+  }
+  .article {
+  margin-top: 2vh;
+}
+}

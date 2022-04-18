@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.button {     
+    background-color: Transparent;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 566px) {
+.button {     
+    background-color: Transparent;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.6vw;
+    line-height: 20px;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+    margin: 0 auto;
+}
+}
