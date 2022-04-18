@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.robot_div {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.robot {
+  position: relative;
+  margin-left: 15.5vw;
+  margin-top: 65px;
+  width: 30vw;
+  height: auto;
+}
+.paragraph {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #00f0ff 10%, #5773ff 30%, #ff007a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 3.2vw;
+  align-self: center;
+  width: 40%;
+  margin-left: 6vw;
+}
+
+@media only screen and (max-width: 565px) {
+  .robot_div {
+    margin-top: -10vw;
+  }
+  .paragraph {
+    margin-top: 18vw;
+  }
+}

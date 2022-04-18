@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title,
+.navButton,
+.auth {
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  color: white;
+}
+
+.header {
+  padding-top: 26px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  align-self: center;
+}
+
+.title {
+  /* margin-left: 4.9vw; */
+  font-weight: 700;
+}
+
+.auth {
+  display: flex;
+  /* margin-right: 6vw; */
+}
+.auth button {
+  margin-right: 26px;
+}
+.navi {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  left: 30%;
+  right: 30%;
+}
+
+.navi li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.auth_button {
+  background-color: Transparent;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  .auth {
+    flex-direction: column-reverse;
+  }
+
+  .title {
+    font-size: 4vw;
+  }
+
+  .auth_button {
+    font-size: 4vw;
+  }
+
+  .regi_button {
+    width: 20vw;
+  }
+}
+@media only screen and (max-width: 381px) {
+  .navi {
+    margin-top: 70px;
+  }
+}
