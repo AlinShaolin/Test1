@@ -77,7 +77,8 @@ export const TextCard = {
   },
   input: {
     title: "Contact us",
-    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus odio tempor rutrum...",
+    paragraph:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus odio tempor rutrum...",
   },
   cards: {
     title: "Explore the features!",
@@ -108,5 +109,8 @@ export const TextCard = {
   customers: {
     title: "Our Customer’s Reviews",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae quam sit scelerisque enim in sed diam nec, blandit. Amet tellus massa sed iaculis. Mauris, curabitur scelerisque sagittis posuere mollis. In dolor neque et vitae lectus vulputate pellentesque luctus.",
+  },
+  urls: {
+    customer: "https://jsonplaceholder.typicode.com/posts/",
   },
 };

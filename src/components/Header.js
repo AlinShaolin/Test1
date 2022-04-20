@@ -8,15 +8,13 @@ import LoginModal from "./LoginModal";
 import RegisterModal from "./RegisterModal";
 
 const Header = (props) => {
-    const [login, setLogin] = useState();
-    const [register, setRegister] = useState();
+    const [login, setLogin] = useState(false);
+    const [register, setRegister] = useState(false);
 
-    const loginModal = (event) => {
-      event.preventDefault();
+    const loginModal = (event) => {     
       setLogin(true)
     }
-    const registerModal = (event) => {
-      event.preventDefault();
+    const registerModal = (event) => { 
       setRegister(true)
     }
 

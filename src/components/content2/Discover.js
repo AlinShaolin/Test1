@@ -5,6 +5,7 @@ import { images } from "../../constants/images";
 import { TextCard } from "../../constants/string";
 
 const Discover = (props) => {
+
   return (
     <div className={classes.all}>
       <div className={classes.markai}>
@@ -46,33 +47,26 @@ const Discover = (props) => {
       <div className={classes.main_div}>
         <div className={classes.first_div}>
           <div className={classes.first_column}>
-            <p className={classes.bold}>{TextCard.column1.site}</p>
-            <p>{TextCard.column1.features}</p>
-            <p>{TextCard.column1.products}</p>
-            <p>{TextCard.column1.company}</p>
-            <p>{TextCard.column1.pricing}</p>
-            <p>{TextCard.column1.support}</p>
+            {Object.values(TextCard.column1).map((item, index) => {
+              return <p className={index === 0 ? classes.bold : []}>{item}</p>;
+            })}
           </div>
           <div className={classes.second_column}>
-            <p className={classes.bold}>{TextCard.column2.legale}</p>
-            <p>{TextCard.column2.privacy}</p>
-            <p>{TextCard.column2.terms}</p>
-            <p>{TextCard.column2.policy}</p>
+            {Object.values(TextCard.column2).map((item, index) => {
+              return <p className={index === 0 ? classes.bold : []}>{item}</p>;
+            })}
           </div>
         </div>
         <div className={classes.second_div}>
           <div className={classes.third_column}>
-            <p className={classes.bold}>{TextCard.column3.company}</p>
-            <p>{TextCard.column3.about}</p>
-            <p>{TextCard.column3.team}</p>
-            <p>{TextCard.column3.story}</p>
-            <p>{TextCard.column3.career}</p>
+            {Object.values(TextCard.column3).map((item, index) => {
+              return <p className={index === 0 ? classes.bold : []}>{item}</p>;
+            })}
           </div>
           <div className={classes.fourth_column}>
-            <p className={classes.bold}>{TextCard.column4.follow}</p>
-            <p>{TextCard.column4.twitter}</p>
-            <p>{TextCard.column4.facebook}</p>
-            <p>{TextCard.column4.linkedin}</p>
+            {Object.values(TextCard.column4).map((item, index) => {
+              return <p className={index === 0 ? classes.bold : []}>{item}</p>;
+            })}
           </div>
         </div>
       </div>

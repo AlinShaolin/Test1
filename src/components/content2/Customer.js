@@ -8,7 +8,7 @@ const Customer = ({ image, text }) => {
   const [movieData, setMovieData] = useState([]);
 
   const getMovieList = useCallback(async () => {
-    const url = "https://jsonplaceholder.typicode.com/posts/";
+    const url = TextCard.urls.customer;
 
     const response = await fetch(url)
       .then((response) => response.json())
